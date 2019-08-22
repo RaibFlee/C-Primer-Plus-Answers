@@ -1,5 +1,5 @@
 /*
-@filename:3-3.c
+@filename:3-4.c
 @Author:RaibFlee
 @description:
  4.编写一个程序，读取一个浮点数，先打印成小数点形式，再打印成指
