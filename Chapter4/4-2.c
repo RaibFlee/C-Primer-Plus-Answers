@@ -1,5 +1,5 @@
 /*
-@filename:3-8.c
+@filename:4-2.c
 @Author:RaibFlee
 @description:
 2.编写一个程序，提示用户输入名和姓，并执行一下操作:
