@@ -1,5 +1,5 @@
 /*
-@filename:8-2.c
+@filename:5-2.c
 @Author:RaibFlee
 @description:
 2.编写一个程序，提示用户输入一个整数，然后打印从该数到比该数大
