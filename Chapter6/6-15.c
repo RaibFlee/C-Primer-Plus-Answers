@@ -25,7 +25,7 @@ int main() {
 		i++;
 	}
 	while (x!='\n');
-	for(i--;i>=0;i--)
+	for(i-=2;i>=0;i--)
 	{
 		printf("%c",statement[i]);
 	}
