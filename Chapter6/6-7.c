@@ -1,5 +1,5 @@
 /*
-@filename:3-8.c
+@filename:6-7.c
 @Author:RaibFlee
 @description:
 7.编写一个程序把-一个单词读入一个字符数组中，然后倒序打印这个单
