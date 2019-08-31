@@ -1,5 +1,5 @@
 /*
-@filename:3-8.c
+@filename:6-15.c
 @Author:RaibFlee
 @description:
 15.编写一一个程序，读取一.行输入，然后把输入的内容倒序打印出来。
