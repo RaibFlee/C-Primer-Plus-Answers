@@ -1,5 +1,5 @@
 /*
-@filename:8-1.c
+@filename:8-3.c
 @Author:RaibFlee
 @description:
 3.编写一个程序，在遇到EOF之前，把输入作为字符流读取。该程序
