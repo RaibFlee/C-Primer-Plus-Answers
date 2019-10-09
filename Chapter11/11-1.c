@@ -15,7 +15,7 @@ char * getnchar(char [],int );
 int main() {
 	system("chcp 65001");
 	char x[10];
-	if (getnchar(x,L))
+	if (getnchar(x,L-1))
 		puts(x);
 	else
 		puts("NULL");
@@ -34,6 +34,6 @@ char * getnchar(char x[],int n){
 			x[i]=ch;
 		}
 	}
-	x[n-1]='\0';
+	x[n]='\0';
 	return x;
 }
