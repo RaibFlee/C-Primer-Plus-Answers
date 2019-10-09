@@ -1,5 +1,5 @@
 /*
-@filename:11-1.c
+@filename:11-2.c
 @Author:RaibFlee
 @description:
 1.设计并测试一一个函数，从输入中获取n个字符(包括空白、制表
