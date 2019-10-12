@@ -19,14 +19,17 @@ int main() {
 	system("chcp 65001");
 	char x[L];
 	char ch;
-	while (1){
+	char choice='y';
+	while (choice=='y'){
+		puts("Enter your word and char");
 		scanf("%s %c",x,&ch);
 		char * x2=getchr(x,ch);
 		if (x2)
 			printf("find %c in %s for index %td\n",ch,x,x2-x);
-		else{
+		else
 			puts("Not Found");
-			break;}
+		printf("Enter y to continue or n to quit:");
+		scanf(" %c",&choice);
 	}
 	puts("Done");
 	return 0;
