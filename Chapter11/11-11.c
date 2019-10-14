@@ -1,5 +1,5 @@
 /*
-@filename:11-1.c
+@filename:11-11.c
 @Author:RaibFlee
 @description:
 11编写一个函数，读入10个字符串或者读到EOF时停止。该程序为用
