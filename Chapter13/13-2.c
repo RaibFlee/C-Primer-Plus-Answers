@@ -29,8 +29,8 @@ int main(int argc, char *args[]) {
 	}
 	fread(&x, sizeof(char),1,f1);
 	while (!feof(f1)){
-		fread(&x, sizeof(char),1,f1);
 		fwrite(&x, sizeof(char),1,f2);
+		fread(&x, sizeof(char),1,f1);
 	}
 	fclose(f1);
 	fclose(f2);
