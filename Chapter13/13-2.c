@@ -27,6 +27,7 @@ int main(int argc, char *args[]) {
 		printf("can't create %s\n",args[2]);
 		exit(EXIT_FAILURE);
 	}
+	fread(&x, sizeof(char),1,f1);
 	while (!feof(f1)){
 		fread(&x, sizeof(char),1,f1);
 		fwrite(&x, sizeof(char),1,f2);
