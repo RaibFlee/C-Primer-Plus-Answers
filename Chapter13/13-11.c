@@ -32,6 +32,7 @@ int main(int argc, char *args[]) {
 		if (strstr(st,args[1]))
 			fputs(st,stdout);
 	}
+	fclose(fp);
 	puts("Done");
 	return 0;
 }
